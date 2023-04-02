@@ -18,7 +18,8 @@ let message;
 message = productName;
 message = message + " ";
 message = message + "за";
-message = message + productName;
+message = message + " ";
+message = message + productPrice;
 message = message + " ";
 message = message + "теперь в корзине!";
 console.log(message);
@@ -54,7 +55,7 @@ let newSum;
 newSum = oldSum + difference;
 let newSumText;
 newSumText = newSum + '₽';
-newSumText = `${newSum}₽`
+newSumText = `${newSum} ₽`
 
     // создайте переменную newSum и присвойте ей сумму oldSum и difference
     // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
