@@ -11,6 +11,7 @@ itemCountText = itemCountText + sum;
 itemCountText = itemCountText + `₽`;
 
 
+
 Задание №3.1. Формирование строки корзины
 
 // Задание №3.1. Формирование строки корзины
