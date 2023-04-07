@@ -6,7 +6,7 @@ itemCountText = itemCountText + product.count;
 itemCountText = itemCountText + ` × `;
 itemCountText = itemCountText + product.price;
 itemCountText =  itemCountText + "₽ =";
-let sum = product.count×price ;
+let sum = product.count*price ;
 itemCountText = itemCountText + sum;
 itemCountText = itemCountText + `₽`;
 
